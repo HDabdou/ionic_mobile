@@ -13,6 +13,7 @@ import { AirtimeComponent } from './airtime/airtime.component';
 import { FacturierComponent } from './facturier/facturier.component';
 import { FormsModule } from '@angular/forms';
 // pour deployer : ionic cordova build --release android
+//http://appsbuilders.org/guides/ionic-framework-tutorial-12-exporting-project-to-apk/
 @NgModule({
   declarations: [AppComponent,ReportingComponent,AirtimeComponent,FacturierComponent],
   entryComponents: [],
